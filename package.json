@@ -4,7 +4,8 @@
   "description": "You Don't Know Node.js",
   "main": "cluster.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node preinstall.js"
   },
   "repository": "https://github.com/azat-co/you-dont-know-node",
   "author": "Azat Mardan",
